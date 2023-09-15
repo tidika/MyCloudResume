@@ -1,2 +1,2 @@
 # MyCloudResume
-This Repo will container  all aws cloud related projects. 
+This Repo will container design, codes and other relevant information relating to my resume website. 
