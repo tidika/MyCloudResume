@@ -19,7 +19,9 @@ This repository comprises all the essential files required to host and operate m
 
 **S3 Bucket:** It is a highly scalable and durable object storage that is used to host the static resume website.
 
-**Lambda:** It is a serverless compute service used to respond to events. In this project, when a request is made to an S3 bucket, it triggers a Lambda function that increments the total number of site visitors. 
+**Lambda:** It is a serverless compute service used that responds to synchronous and asynchronous events. In this project, when a request is made to an S3 bucket, it triggers a Lambda function that increments the total number of site visitors. 
+
+**DynamoDB:** It is amazon NOSQL database that is designed for high-performance, scalable and low-latency application. In this project, it is used to store the number of site visitors. However, any RDS database eg MySQL, PostgreSQL, MSSQL etc can also suffice. 
 
 
 
